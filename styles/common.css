@@ -1,0 +1,33 @@
+/* header */
+header {
+    background:aqua;
+    width:calc(100 - 60px); /*full*/
+    height:100px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header h1 {width:248px;}
+header h1 a {
+}
+header h1 a img {width:100%}
+header .right {
+    display:flex;
+    align-items:center;
+}
+header .right .lang {}
+header .right #searchFrm {
+    background:#d9d9d9;
+    border-radius:10px; width:314px;
+}
+header .right #searchFrm fieldset {}
+header .right #searchFrm fieldset #searchTxt {}
+header .right #searchFrm fieldset #searchBtn {}
+header .right #searchFrm fieldset #searchBtn img {}
+header .right #login {width:48px; height:48px;}
+header .right #login img {}
+header .right #cart {width:48px; height:48px;}
+header .right #cart img {}
+header .right #menu {width:48px; height:48px;}
+header .right #menu img {}
