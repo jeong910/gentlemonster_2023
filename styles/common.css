@@ -22,8 +22,7 @@ header {
     align-items:center;
 }
 header h1 {width:248px;}
-header h1 a {
-}
+header h1 a {margin:30px;}
 header h1 a img {width:100%}
 header .right {
     display:flex;
