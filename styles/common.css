@@ -57,6 +57,7 @@ header #open_nav #nav_close {
     width:24px; height:24px;
     position:absolute;
     right:99px; top:88px;
+    /* z-index:999;  X버튼이 클릭안될때 해결하는법*/
 }
 header #open_nav #nav_close img {width:100%;}
 /* swiper-slide nav-adver */
