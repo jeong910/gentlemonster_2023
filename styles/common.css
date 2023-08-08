@@ -89,3 +89,47 @@ header #open_nav nav a {
 header #open_nav nav a:hover {
     color:#99357d
 }
+/* footer */
+footer {
+    background:pink;
+    width:calc(100% - 60px);
+}
+footer .f_menu {
+    display:flex; flex-flow:row nowrap;
+}
+footer .f_menu dl {margin-right: 89px;}
+footer .f_menu .service {}
+footer .f_menu .service dt {
+    font-weight:700;
+}
+footer .f_menu .service dd {}
+footer .f_menu .service dd a {
+    line-height:30px; letter-spacing: -0.02em;
+}
+footer .f_menu .law {}
+footer .f_menu .law dt {
+    font-weight:700;
+}
+footer .f_menu .law dd {}
+footer .f_menu .law dd a {
+    line-height:30px;
+}
+footer .f_menu .sns {}
+footer .f_menu .sns dt {
+    font-weight:700;
+}
+footer .f_menu .sns dd {}
+footer .f_menu .sns dd a {
+    line-height:30px;
+}
+footer .f_copy {}
+footer .f_copy .logo {width: 213px;}
+footer .f_copy .logo img {width:100%;}
+footer address {
+    line-height:30px; letter-spacing:-0.02em;
+    text-align:center;
+}
+footer address a {
+
+}
+
