@@ -1,0 +1,34 @@
+main {
+    display:flex; flex-flow:column nowrap;
+    align-items:center;
+}
+main a {
+    width:450px; height:110px;
+}
+main img {width:50%;}
+main .login {
+    
+}
+main .login form {}
+main .login form fieldset {}
+main .login form fieldset legend {
+    font-size:2.5rem;
+} 
+main .login form fieldset ul {} 
+main .login form fieldset ul li {} 
+main .login form fieldset ul li input {
+    border:1px solid #f1f1f1;
+    width:450px; height:60px;
+} 
+main .login form fieldset p {} 
+main .login form fieldset button {} 
+main .login .sns_btn {}
+main .login .sns_btn ul {
+    display:flex; flex-flow:row nowrap;
+}
+main .login .sns_btn ul li {}
+main .login .sns_btn ul li img {width: 100%;}
+main p {}
+main p em {color:#28CCF0}
+main p em:hover {border-bottom:1px solid #28CCF0;}
+

@@ -96,6 +96,7 @@ footer {
 }
 footer .f_menu {
     display:flex; flex-flow:row nowrap;
+    margin: ;
 }
 footer .f_menu dl {margin-right: 89px;}
 footer .f_menu .service {}
@@ -127,9 +128,6 @@ footer .f_copy .logo {width: 213px;}
 footer .f_copy .logo img {width:100%;}
 footer address {
     line-height:30px; letter-spacing:-0.02em;
-    text-align:center;
 }
-footer address a {
-
-}
+footer address a {}
 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>LOGIN | GENTLE MONSTER</title>
+    <!-- swiper slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> 
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <!-- header -->
+    <?php include('./header.php') ?>
+    <main>
+        <a href="#"><img src="./images/logo.png" alt="로고 이미지"></a>
+        <div class="login">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>로그인</legend>
+                    <ul>
+                        <li><input type="text" name="user_email" placeholder="이메일 입력"></li>
+                        <li><input type="password" name="user_pw" placeholder="비밀번호 입력"></li>
+                    </ul>
+                    <p>로그인 정보를 잊으셨나요?</p>
+                    <button id="login" type="submit">로그인</button>
+                    <button id="kakao" type="submit">카카오로 시작하기</button>
+                    <button id="naver" type="submit">네이버로 시작하기</button>
+                </fieldset>
+            </form>
+                <div class="sns_btn">
+                    <ul>
+                        <li><img src="./images/Search.jpg" alt="구글 로그인"></li>
+                        <li><img src="./images/Facebook.jpg" alt="페이스북 로그인"></li>
+                        <li><img src="./images/Apple.jpg" alt="애플 로그인"></li>
+                    </ul>
+                </div>
+        </div>
+            <p>회원가입을 하시면, 주문 조회와 개인정보 관리 및 위시리스트 확인 등<br>
+                다양한 혜택을 누리실 수 있습니다.</p>
+            <p><em>회원가입</em></p>
+    </main>
+    <!-- footer -->
+    <?php include('./footer.php') ?>
+    <!-- header, footer 웹페이지 공통영역 적용js -->
+    <script src="./script/common.js"></script>
+</body>
+</html>
